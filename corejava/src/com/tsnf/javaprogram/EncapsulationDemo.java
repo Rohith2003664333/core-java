@@ -3,9 +3,9 @@ package com.tsnf.javaprogram;
 public class EncapsulationDemo {
 	public static void main(String args[]) {
 		Encapsulation ob=new Encapsulation();
-		ob.name="Rohith";
-		ob.age=18;
-		ob.serialNum=72;
+		ob.setAge(30);
+		ob.setName("Ram");
+		ob.setSerialNum(50);
 		ob.show();
 	}
 
